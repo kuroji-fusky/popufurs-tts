@@ -1,0 +1,20 @@
+#wrapper {
+  display: flex;
+	align-items: center;
+  column-gap: 0.75rem;
+  border-radius: 6px;
+  border: 2px solid gray;
+	padding: 0.75rem;
+}
+
+.selected-item {
+  border-color: green;
+  box-shadow: 0 0 12px green;
+}
+
+.img-wrapper {
+  $size: 60px;
+  width: $size;
+  height: $size;
+	position: relative;
+}
